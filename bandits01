@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MARVEL</h1>
+        <p>A UNIVERSE OF SUPER HEROS</p>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BZjI5NmFmOWUtZWY0ZS00NTc5LWE0YjgtMjk3YmNiM2EwM2U4XkEyXkFqcGdeQXVyMTA1NjE5MTAz._V1_.jpg">
+                <div class="info">
+                    <h2>Spider-Man</h2>
+                    <p>Movie: Spider-Man: No Way Home</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://images-cdn.ubuy.co.in/6356a05daebb735896567139-premiumprints-marvel-iron-man-original.jpg">
+                <div class="info">
+                    <h2>Iron Man</h2>
+                    <p>Movie: Iron Man</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/I/81U9EbWexxL._AC_UF1000,1000_QL80_.jpg">
+                <div class="info">
+                    <h2>Captain America</h2>
+                    <p>Movie: Captain America: The First Avenger</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://images-cdn.ubuy.co.in/634ef06b8baa0a022a1b1b31-thor-ragnarok-movie-poster-d-thor.jpg">
+                <div class="info">
+                    <h2>Thor</h2>
+                    <p>Movie: Thor: Ragnarok</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://images-cdn.ubuy.co.in/634eff3dd353f87b78610b7d-black-widow-marvel-movie-poster.jpg">
+                <div class="info">
+                    <h2>Black Widow</h2>
+                    <p>Movie: Black Widow</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MARVEL</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MARVEL</h1>
+        <p>A UNIVERSE OF SUPER HEROS</p>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/M/MV5BZjI5NmFmOWUtZWY0ZS00NTc5LWE0YjgtMjk3YmNiM2EwM2U4XkEyXkFqcGdeQXVyMTA1NjE5MTAz._V1_.jpg">
+                <div class="info">
+                    <h2>Spider-Man</h2>
+                    <p>Movie: Spider-Man: No Way Home</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://images-cdn.ubuy.co.in/6356a05daebb735896567139-premiumprints-marvel-iron-man-original.jpg">
+                <div class="info">
+                    <h2>Iron Man</h2>
+                    <p>Movie: Iron Man</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/I/81U9EbWexxL._AC_UF1000,1000_QL80_.jpg">
+                <div class="info">
+                    <h2>Captain America</h2>
+                    <p>Movie: Captain America: The First Avenger</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://images-cdn.ubuy.co.in/634ef06b8baa0a022a1b1b31-thor-ragnarok-movie-poster-d-thor.jpg">
+                <div class="info">
+                    <h2>Thor</h2>
+                    <p>Movie: Thor: Ragnarok</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://images-cdn.ubuy.co.in/634eff3dd353f87b78610b7d-black-widow-marvel-movie-poster.jpg">
+                <div class="info">
+                    <h2>Black Widow</h2>
+                    <p>Movie: Black Widow</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MARVEL</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #d32f2f;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #d32f2f;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.image-container:hover .info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+footer {
+    background: #d32f2f;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+
+body {
+    background: linear-gradient(to right, #ff0000, #0000ff); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
